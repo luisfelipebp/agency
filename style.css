@@ -1,0 +1,83 @@
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-home {
+  background: url("/assets/img/header-bg.jpg") center center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.img-rounded {
+  width: 160px;
+  border-radius: 50%;
+  border: 6px solid lightgray;
+}
+
+.img-team {
+  max-width: 250px;
+  border-radius: 50%;
+  border: 6px solid lightgray;
+}
+
+.container-map {
+  background: url("/assets/img/map-image.png") center center;
+  background-size: cover;
+  max-width: 1200px;
+  height: auto;
+}
+
+.bg-map {
+  background-color: #212529;
+}
+
+.icon-ig {
+  width: 36px;
+  height: 36px;
+}
+
+.img-logos {
+  max-width: 200px;
+}
+
+.icon-social {
+  width: 42px;
+  height: 42px;
+}
+
+.top-padding {
+  padding-top: 250px;
+}
+
+.subtitle-text {
+  color: #6c757d;
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .title-mobile {
+    font-size: 64px;
+  }
+  .top-padding {
+    padding-top: 200px;
+  }
+  .img-rounded {
+    width: 120px;
+    order: -1;
+  }
+  .text-about {
+    order: 5;
+  }
+}
+@media (max-width: 455px) {
+  .title-mobile {
+    font-size: 48px;
+  }
+}
+
+.card-img-top:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
